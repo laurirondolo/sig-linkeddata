@@ -16,7 +16,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 seed_page ='https://www.taxonic.com'
 crawl_limit = 200
 extract_limit = 20
-database = "medewerkerOutputDictwithURL.json"
+database = "medewerkers-quote.json"
 
 #CONSTANTS
 frontier = []
@@ -51,6 +51,15 @@ def find_KwaliteitenErvaring(soup, identifier):
 					end = i.find("</")
 					item = i[start+1:end]
 					items.append(item)
+	return list(set(items))
+	
+def find_Beschrijving(soup):
+	items = []
+	wpb_containers = soup.find_all('div', class_='wpb_wrapper')
+	wpb_containers[1].find('blockquote').decompose()
+	paragraphs = wpb_containers[1].find_all('p')
+	for i in paragraphs:
+		items.append(i.text)
 	return list(set(items))
 
 def download_page(url):
@@ -149,10 +158,12 @@ def employee_scrape(url, soup):
 	_name = soup.find("h1").text
 	_title = soup.find("div", id="staff-single-position").text
 	_image = soup.find("img", class_="staff-single-media-img")
+	_quote = soup.blockquote.p.text
+	_beschrijving = find_Beschrijving(soup)
 	_clients = find_KwaliteitenErvaring(soup, "Opdrachtgevers:")
 	_talents = find_KwaliteitenErvaring(soup, "Kennis en vaardigheden:")
 
-	entity = dict(url=str(url), name=str(_name), title=_title, depiction=_image["src"], clients=_clients, talents=_talents)
+	entity = dict(url=str(url), quote=str(_quote), beschrijving=str(_beschrijving), name=str(_name), title=_title, depiction=_image["src"], clients=_clients, talents=_talents)
 
 	print(entity)
 
