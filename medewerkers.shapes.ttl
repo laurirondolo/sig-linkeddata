@@ -1,0 +1,55 @@
+@prefix dash: <http://datashapes.org/dash#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix up: <http://purl.oclc.org/NET/UNIS/up#>.
+
+schema:PersonShape
+    a sh:NodeShape ;
+    sh:targetClass schema:Person ;
+    sh:property [
+        sh:path schema:name ;
+        sh:datatype xsd:string ;
+        sh:name "name" ;
+sh:maxCount 1;
+sh:minCount 1;
+    ] ;
+    sh:property [
+        sh:path schema:jobTitle ;
+        sh:datatype xsd:string ;
+        sh:name "job title" ;
+sh:minCount 1;
+    ] ;
+    sh:property [
+        sh:path foaf:depiction ;
+        sh:class foaf:Image;
+sh:nodeKind sh:IRI;
+        sh:name "depiction" ;
+sh:minCount 1;
+    ] ;
+    sh:property [
+        sh:path schema:url ;
+        sh:class schema:URL;
+sh:nodeKind sh:IRI;
+        sh:name "url" ;
+sh:minCount 1;
+    ] ;
+
+    sh:property [
+        sh:path foaf:worksWith ;
+        sh:datatype xsd:string ;
+        sh:name "works with" ;
+sh:minCount 1;
+    ];
+
+    sh:property [
+        sh:path up:Ability ;
+        sh:datatype xsd:string ;
+        sh:name "abilities" ;
+sh:minCount 1;
+    ]
+ .

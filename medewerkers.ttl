@@ -1,0 +1,242 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://example.com/person/Jan%20Voskuil> a schema:Person ;
+	schema:name "Jan Voskuil" ;
+	schema:jobTitle "CEO" ;
+	foaf:depiction <https://www.taxonic.com/cms/uploads/Jan-Voskuil-Taxonic.jpg> ;
+	schema:url <https://www.taxonic.com/medewerker/jan-voskuil> ;
+	foaf:worksWith "NL EVD Internationaal" , "Ministerie van Sociale Zaken en Werkgelegenheid" , "Rijkswaterstaat" , "Provincie Noord-Holland" , "Raad voor Rechtspraak" , "Ministerie van Economische Zaken" , "Dienst Justitiële Inrichting" ;
+	<http://purl.oclc.org/NET/UNIS/up#Ability> "Enterprise Architecture" , "Linked Data (SKOS)" , "IT Architecture" , "Informatiebeveiliging" , "Application architecture" , "Dynamisch Case Management" , "Informatiemanagement" , "Architectuur" .
+
+<http://example.com/person/Reza%20Ahmadi> a schema:Person ;
+	schema:name "Reza Ahmadi" ;
+	schema:jobTitle "CTO" ;
+	foaf:depiction <https://www.taxonic.com/cms/uploads/Reza-Ahmadi-Taxonic.jpg> ;
+	schema:url <https://www.taxonic.com/medewerker/reza-ahmadi> ;
+	foaf:worksWith "ING" , "Ministerie van OC&amp;W" , "International Criminal Court" , "Centraal Bureau voor de Statistiek" , "Rijkswaterstaat" , "Inspectie voor de gezondheidszorg" , "Gemeente Den Haag" , "European Patent Office" , "Ministerie van VWS" , "Koninklijke Bibliotheek" , "Ministerie van Justitie" , "Amsterdam Airport Schiphol" , "CMG/LogicaCMG/Logica" , "UWV" ;
+	<http://purl.oclc.org/NET/UNIS/up#Ability> "Enterprise Architecture" , "IT Architecture" , "Informatiebeveiliging" , "Event Driven Architecture" , "IT-Advisering" , "Service Oriented Architecture" , "Dynamisch Case Management" , "Oracle/Java Delivery Centre" , "Reference Architecture" , "Application Architecture" .
+
+<http://example.com/person/Domien%20Bolmers> a schema:Person ;
+	schema:name "Domien Bolmers" ;
+	schema:jobTitle "Teammanager & Competence manager" ;
+	foaf:depiction <https://www.taxonic.com/cms/uploads/Domien-Bolmers-Taxonic.jpg> ;
+	schema:url <https://www.taxonic.com/medewerker/domien-bolmers> ;
+	foaf:worksWith "ING" , "SNS bank" , "Aon" , "Shell" , "Taxonic" , "Staatsloterij" , "Vopak" , "Interpolis" , "Rabobank" , "Generali" ;
+	<http://purl.oclc.org/NET/UNIS/up#Ability> "Software ontwikkeling" , "Propositie ontwikkeling" , "IT-advisering" , "Consultancy" , "SOX compliancy" , "People management" , "Shared Service Centres" , "Enterprise Resource Planning" , "Banken en verzekeringen" , "Competence management" , "Service delivery" , "Project- en teammanagement" , "Oracle Applications" .
+
+<http://example.com/person/Mark%20Pruimboom> a schema:Person ;
+	schema:name "Mark Pruimboom" ;
+	schema:jobTitle "Sales Manager" ;
+	foaf:depiction <https://www.taxonic.com/cms/uploads/Mark-Pruimboom-Taxonic.jpg> ;
+	schema:url <https://www.taxonic.com/medewerker/mark-pruimboom> ;
+	foaf:worksWith "Taxonic" , "Ontuitive" , "eSupportConsulting" , "EMC" , "Pegasystems" ;
+	<http://purl.oclc.org/NET/UNIS/up#Ability> "Business Development" , "Sales Management &amp; Marketing" .
+
+<http://example.com/person/Paul%20van%20den%20Bosch> a schema:Person ;
+	schema:name "Paul van den Bosch" ;
+	schema:jobTitle "Business Consultant" ;
+	foaf:depiction <https://www.taxonic.com/cms/uploads/Paul-van-den-Bosch-Taxonic.jpg> ;
+	schema:url <https://www.taxonic.com/medewerker/paul-van-den-bosch> ;
+	foaf:worksWith "AgentschapNL" , "Cap Gemini" , "TAQA Energy" , "Eneco Services" , "Fujitsu Technology Solutions" ;
+	<http://purl.oclc.org/NET/UNIS/up#Ability> "Enterprise Content Management" , "Pakket Selectie" , "Trend Watching &amp; Innovatie" , "Design Thinking" , "Requirements Management" , "Business Process Management" , "Agile SCRUM (Product Owner)" , "Kennis Management" , "Business Information Planning" , "Business Analyse" , "Product Management" .
+
+<http://example.com/person/Gerwin%20van%20de%20Kamp> a schema:Person ;
+	schema:name "Gerwin van de Kamp" ;
+	schema:jobTitle "Pega Systems Architect" ;
+	foaf:depiction <https://www.taxonic.com/cms/uploads/Gerwin-van-de-Kamp-Taxonic.jpg> ;
+	schema:url <https://www.taxonic.com/medewerker/gerwin-van-de-kamp-2> ;
+	foaf:worksWith "Taxonic" , "Darwin-IT Professionals" ;
+	<http://purl.oclc.org/NET/UNIS/up#Ability> "Pega 7 platform" , "Change management" , "Implementatie management" , "Bancaire processen" , "Dynamic case management" , "CRM/ Workflow" , "Agile SCRUM (Scrum Master, Product owner)" , "Business process management" .
+
+<http://example.com/person/Sjoerd%20Ronner> a schema:Person ;
+	schema:name "Sjoerd Ronner" ;
+	schema:jobTitle "Pega Business Architect" ;
+	foaf:depiction <https://www.taxonic.com/cms/uploads/Sjoerd-Ronner-Taxonic.jpg> ;
+	schema:url <https://www.taxonic.com/medewerker/sjoerd-ronner> ;
+	foaf:worksWith "Koninklijke Militaire Academie" , "Taxonic" , "Bvolve" , "Slokker Innovate" , "Philips" ;
+	<http://purl.oclc.org/NET/UNIS/up#Ability> "Agile Scrum" , "Dynamic Case Management" , "Architect" , "BPM" , "TOGAF" , "Archimate" , "BiZZdesign Enterprise Studio" , "Architectuur" .
+
+<http://example.com/person/Shahbaz%20Rasti> a schema:Person ;
+	schema:name "Shahbaz Rasti" ;
+	schema:jobTitle "Pega Systems Architect" ;
+	foaf:depiction <https://www.taxonic.com/cms/uploads/Shahbaz-Rasti-Taxonic.jpg> ;
+	schema:url <https://www.taxonic.com/medewerker/shahbaz-rasti> ;
+	foaf:worksWith "FrieslandCampina" , "ArboUnie" , "Taxonic" , "Universiteit Utrecht" ;
+	<http://purl.oclc.org/NET/UNIS/up#Ability> "Implementatie Management" , "E-Commerce" , "Dynamic Case Management" , "Testmanagement" , "Requirements Engineering" , "Pega 7 Platform" , "Business Process Management" , "Agile SCRUM" , "Use Case ontwerp" , "Product- service innovatie" .
+
+<http://example.com/person/Geoffrey%20Gaspersz> a schema:Person ;
+	schema:name "Geoffrey Gaspersz" ;
+	schema:jobTitle "Pega Systems Architect" ;
+	foaf:depiction <https://www.taxonic.com/cms/uploads/Geoffrey-Gaspersz-Taxonic.jpg> ;
+	schema:url <https://www.taxonic.com/medewerker/geoffrey-gaspersz> ;
+	foaf:worksWith "Blokker" , "Taxonic" , "Zetes" , "Uniservices" , "Koninklijke Nederlandsche Maatschappij tot bevordering der Geneeskunst" , "Datashare" , "Gemeente Amerongen" , "Staring Centrum" , "Centrum indicatiestelling zorg" ;
+	<http://purl.oclc.org/NET/UNIS/up#Ability> "Coaching" , "Koppelingen (GBA, WID-check, UZI, CIZ-CAK-bericht, iWLZ)" , "Projectleiding" , "Business Process Management" , "Information en Requirement management" , "Kennis Management" , "Business Information Planning" , "Agile – SCRUM" , "Pakket selecties en -implementaties" .
+
+<http://example.com/person/Max%20Westerveld> a schema:Person ;
+	schema:name "Max Westerveld" ;
+	schema:jobTitle "Pega Systems Architect" ;
+	foaf:depiction <https://www.taxonic.com/cms/uploads/Max-Westerveld-Taxonic.jpg> ;
+	schema:url <https://www.taxonic.com/medewerker/max-westerveld> ;
+	foaf:worksWith "Equens" , "Stater" , "ING bank" , "Westland Utrecht bank" , "KSI" , "NVWA" , "PTT-Telecom" , "Taxonic" , "Everest" , "Raad voor Rechtsbijstand" , "Credit Lyonais bank" , "Ordina/ Infradesigen" , "Houtsma bedrijfsadvies" , "Fortisbank" , "Orbis Software" , "BKR" , "Chiron-IT" , "Rabobank" , "SNS" ;
+	<http://purl.oclc.org/NET/UNIS/up#Ability> "Agile methoden" , "Informatie analyse" , "Dynamic Case Management" , "Softwareontwikkeling" , "Business Proces Management" .
+
+<http://example.com/person/Guido%20van%20der%20Wolk> a schema:Person ;
+	schema:name "Guido van der Wolk" ;
+	schema:jobTitle "Software Engineer" ;
+	foaf:depiction <https://www.taxonic.com/cms/uploads/Guido-van-der-Wolk-Taxonic.jpg> ;
+	schema:url <https://www.taxonic.com/medewerker/guido-van-der-wolk> ;
+	foaf:worksWith "Huisman Equipments" , "Vancis, Advanced ICT Services" ;
+	<http://purl.oclc.org/NET/UNIS/up#Ability> "Technisch projectleider" , "E-Commerce" , "Client/Server Systems" , "Continuous Delivery &amp; Integration" , "Application Servers" , "Big Data" , "PHP" , ".NET" , "Web Services" , "Security Code Reviewer" , "Data visualisatie" , "Java" , "Open Source" , "Digital Image Processing" , "Oracle Database" , "Quality Reviewer" , "Linux" , "DevOps" .
+
+<http://example.com/person/Hedde%20van%20der%20Veer> a schema:Person ;
+	schema:name "Hedde van der Veer" ;
+	schema:jobTitle "Software Engineer" ;
+	foaf:depiction <https://www.taxonic.com/cms/uploads/Hedde-van-der-Veer-Taxonic.jpg> ;
+	schema:url <https://www.taxonic.com/medewerker/hedde-van-der-veer> ;
+	foaf:worksWith "RSVier" , "Rabobank International" , "Taxonic interne projecten" ;
+	<http://purl.oclc.org/NET/UNIS/up#Ability> "Web development" , "Webservices" , "Databases" , "Java" , "Scrum/Agile" , "Version control" .
+
+<http://example.com/person/Ken%20Voskuil> a schema:Person ;
+	schema:name "Ken Voskuil" ;
+	schema:jobTitle "Software Engineer" ;
+	foaf:depiction <https://www.taxonic.com/cms/uploads/Ken-Voskuil-Taxonic.jpg> ;
+	schema:url <https://www.taxonic.com/medewerker/ken-voskuil> ;
+	foaf:worksWith "Abbey Games" , "Trifork" , "Edyt" , "ANWB" ;
+	<http://purl.oclc.org/NET/UNIS/up#Ability> "JavaScript" , "PHP" , "Java" , "C#" , "Golang" , "Web technologieen:" , "AngularJS" .
+
+<http://example.com/person/Victor%20Louwerse> a schema:Person ;
+	schema:name "Victor Louwerse" ;
+	schema:jobTitle "Software Engineer" ;
+	foaf:depiction <https://www.taxonic.com/cms/uploads/Victor-Louwerse-Taxonic.jpg> ;
+	schema:url <https://www.taxonic.com/medewerker/victor-louwerse> ;
+	foaf:worksWith "Erasmus MC" , "2Gears" , "Piggy Loyalty" , "E-conomy" , "Operator Group Delft" ;
+	<http://purl.oclc.org/NET/UNIS/up#Ability> "Web services, technologies" , "Java, Java EE" , "Javascript, NodeJS" , "Information architecture" , "Scrum" , "Linked Data" , "Docker" .
+
+<http://example.com/person/Tarsi%20Maria> a schema:Person ;
+	schema:name "Tarsi Maria" ;
+	schema:jobTitle "Software Engineer" ;
+	foaf:depiction <https://www.taxonic.com/cms/uploads/Tarsi-Maria-Taxonic.jpg> ;
+	schema:url <https://www.taxonic.com/medewerker/tarsi-maria> ;
+	foaf:worksWith "Leids Universitair Medisch Centrum (LUMC)" , "Taxonic" , "Operator Groep Delft" , "TOPDesk" , "Logica/CGI" , "ProRail" ;
+	<http://purl.oclc.org/NET/UNIS/up#Ability> "C/C++" , "Mission critical systems" , "Verschillende andere programmeertalen" , "Databases" , "Java" , "Productmanagment" , "Agile SCRUM" , "Intelligent Transport Systems (ITS)" , "Linux" .
+
+<http://example.com/person/Dena%20Tahvildari> a schema:Person ;
+	schema:name "Dena Tahvildari" ;
+	schema:jobTitle "Linked Data Engineer" ;
+	foaf:depiction <https://www.taxonic.com/cms/uploads/Dena-Tahvildari-Taxonic.jpg> ;
+	schema:url <https://www.taxonic.com/medewerker/dena-tahvildari-2> ;
+	foaf:worksWith "Taxonic" , "Vrije universiteit Amsterdam" ;
+	<http://purl.oclc.org/NET/UNIS/up#Ability> "Protégé" , "TopBraidComposer" , "Philosophy of science" , "Python" , "Rapid Ontology Construction tool" , "Natural Language Processing" , "Ontologies" , "Knowledge Representation" , "e-science" , "R" .
+
+<http://example.com/person/Jesse%20Bakker> a schema:Person ;
+	schema:name "Jesse Bakker" ;
+	schema:jobTitle "Linked Data Engineer" ;
+	foaf:depiction <https://www.taxonic.com/cms/uploads/Jesse-Bakker-Taxonic.jpg> ;
+	schema:url <https://www.taxonic.com/medewerker/jesse-bakker> ;
+	foaf:worksWith "Taxonic" , "Kadaster" ;
+	<http://purl.oclc.org/NET/UNIS/up#Ability> "Knowledge Engineering" , "Information Retrieval" , "Python" , "Natural Language Processing" , "Web Technology" , "Linked Data" , "Information Visualization" .
+
+<http://example.com/person/Lauri%20Rondolo> a schema:Person ;
+	schema:name "Lauri Rondolo" ;
+	schema:jobTitle "Linked Data Engineer" ;
+	foaf:depiction <https://www.taxonic.com/cms/uploads/Lauri-Rondolo-Taxonic.jpg> ;
+	schema:url <https://www.taxonic.com/medewerker/lauri-rondolo> ;
+	foaf:worksWith "Athena Instituut" , "Taxonic" ;
+	<http://purl.oclc.org/NET/UNIS/up#Ability> "Matlab" , "Machine LearningNatural Language Processing" , "Python" , "Java" , "Semantic Web" , "Knowledge Representation and Engineering" .
+
+<http://example.com/person/Waqaar%20Beg> a schema:Person ;
+	schema:name "Waqaar Beg" ;
+	schema:jobTitle "Security & Systems Engineer" ;
+	foaf:depiction <https://www.taxonic.com/cms/uploads/Naser-Ayat-Taxonic.jpg> ;
+	schema:url <https://www.taxonic.com/medewerker/waqaar-beg> ;
+	foaf:worksWith "ING" , "Swisslog" , "EDSN" , "Rijkswaterstaat" , "CGI, Logica CMG" , "European Patent Office" , "Rabobank International" , "UWV" ;
+	<http://purl.oclc.org/NET/UNIS/up#Ability> "Pen testing" , "Mobility / Bring Your Own Device" , "Splunk" , "Nexpose" , "IPv4, IPv6" , "Qualsys" , "Network (Cisco Firewall / VPN, Intrusion prevention and detection systems)" , "nmap" , "Vulnerably scans" , "Intrusion tooling" , "Lightweight directory protocol" , "Active Directory: Nessus, Apache/ Tomcat, Shell / SQL scripting, Linux /RedHat, WebSphere/ Java, Automated testing." , "Cryptography" , "SecureSphere" , "Microsoft, Oracle, UNIX, VMware" , "Outpost24" .
+
+<http://example.com/person/Colin%20Meerveld> a schema:Person ;
+	schema:name "Colin Meerveld" ;
+	schema:jobTitle "Solution Architect" ;
+	foaf:depiction <https://www.taxonic.com/cms/uploads/Naser-Ayat-Taxonic.jpg> ;
+	schema:url <https://www.taxonic.com/medewerker/colin-meerveld> ;
+	foaf:worksWith "RTL Group" , "Deutsche Telekom" , "Arris International" , "Taxonic" , "Ziggo" , "J:COM" , "Liberty Global" , "Ericsson" , "SBS Broadcasting Group" , "Altice" , "Nederlandse Publieke Omroep" , "Virgin Media" , "KPN" , "ActiveVideo" , "Accessibility Foundation" , "Charter Communications" , "Time Warner Cable" , "Funai" ;
+	<http://purl.oclc.org/NET/UNIS/up#Ability> "Cloud Computing" , "SPARQL, Kubernetes, Git, Ansible" , "IT Architecture" , "Software Engineering" , "Java, Python, RDF, OWL" , "Linked Data" , "Data Modelling" , "Agile / Scrum" .
+
+<https://www.taxonic.com/cms/uploads/Jan-Voskuil-Taxonic.jpg> a foaf:Image .
+
+<https://www.taxonic.com/cms/uploads/Reza-Ahmadi-Taxonic.jpg> a foaf:Image .
+
+<https://www.taxonic.com/cms/uploads/Domien-Bolmers-Taxonic.jpg> a foaf:Image .
+
+<https://www.taxonic.com/cms/uploads/Mark-Pruimboom-Taxonic.jpg> a foaf:Image .
+
+<https://www.taxonic.com/cms/uploads/Paul-van-den-Bosch-Taxonic.jpg> a foaf:Image .
+
+<https://www.taxonic.com/cms/uploads/Gerwin-van-de-Kamp-Taxonic.jpg> a foaf:Image .
+
+<https://www.taxonic.com/cms/uploads/Sjoerd-Ronner-Taxonic.jpg> a foaf:Image .
+
+<https://www.taxonic.com/cms/uploads/Shahbaz-Rasti-Taxonic.jpg> a foaf:Image .
+
+<https://www.taxonic.com/cms/uploads/Geoffrey-Gaspersz-Taxonic.jpg> a foaf:Image .
+
+<https://www.taxonic.com/cms/uploads/Max-Westerveld-Taxonic.jpg> a foaf:Image .
+
+<https://www.taxonic.com/cms/uploads/Guido-van-der-Wolk-Taxonic.jpg> a foaf:Image .
+
+<https://www.taxonic.com/cms/uploads/Hedde-van-der-Veer-Taxonic.jpg> a foaf:Image .
+
+<https://www.taxonic.com/cms/uploads/Ken-Voskuil-Taxonic.jpg> a foaf:Image .
+
+<https://www.taxonic.com/cms/uploads/Victor-Louwerse-Taxonic.jpg> a foaf:Image .
+
+<https://www.taxonic.com/cms/uploads/Tarsi-Maria-Taxonic.jpg> a foaf:Image .
+
+<https://www.taxonic.com/cms/uploads/Dena-Tahvildari-Taxonic.jpg> a foaf:Image .
+
+<https://www.taxonic.com/cms/uploads/Jesse-Bakker-Taxonic.jpg> a foaf:Image .
+
+<https://www.taxonic.com/cms/uploads/Lauri-Rondolo-Taxonic.jpg> a foaf:Image .
+
+<https://www.taxonic.com/cms/uploads/Naser-Ayat-Taxonic.jpg> a foaf:Image .
+
+<https://www.taxonic.com/medewerker/jan-voskuil> a schema:URL .
+
+<https://www.taxonic.com/medewerker/reza-ahmadi> a schema:URL .
+
+<https://www.taxonic.com/medewerker/domien-bolmers> a schema:URL .
+
+<https://www.taxonic.com/medewerker/mark-pruimboom> a schema:URL .
+
+<https://www.taxonic.com/medewerker/paul-van-den-bosch> a schema:URL .
+
+<https://www.taxonic.com/medewerker/gerwin-van-de-kamp-2> a schema:URL .
+
+<https://www.taxonic.com/medewerker/sjoerd-ronner> a schema:URL .
+
+<https://www.taxonic.com/medewerker/shahbaz-rasti> a schema:URL .
+
+<https://www.taxonic.com/medewerker/geoffrey-gaspersz> a schema:URL .
+
+<https://www.taxonic.com/medewerker/max-westerveld> a schema:URL .
+
+<https://www.taxonic.com/medewerker/guido-van-der-wolk> a schema:URL .
+
+<https://www.taxonic.com/medewerker/hedde-van-der-veer> a schema:URL .
+
+<https://www.taxonic.com/medewerker/ken-voskuil> a schema:URL .
+
+<https://www.taxonic.com/medewerker/victor-louwerse> a schema:URL .
+
+<https://www.taxonic.com/medewerker/tarsi-maria> a schema:URL .
+
+<https://www.taxonic.com/medewerker/dena-tahvildari-2> a schema:URL .
+
+<https://www.taxonic.com/medewerker/jesse-bakker> a schema:URL .
+
+<https://www.taxonic.com/medewerker/lauri-rondolo> a schema:URL .
+
+<https://www.taxonic.com/medewerker/waqaar-beg> a schema:URL .
+
+<https://www.taxonic.com/medewerker/colin-meerveld> a schema:URL .
