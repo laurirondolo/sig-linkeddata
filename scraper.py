@@ -17,6 +17,7 @@ seed_page ='https://www.taxonic.com'
 crawl_limit = 200
 extract_limit = 20
 database = "medewerkers-quote.json"
+id = 0
 
 #CONSTANTS
 frontier = []
@@ -60,8 +61,15 @@ def find_Beschrijving(soup):
 	paragraphs = wpb_containers[1].find_all('p')
 	for i in paragraphs:
 		items.append(i.text)
-	return list(set(items))
+	
+	return " ".join(items)
 
+def find_Quote(soup):
+	quote = str(soup.blockquote.p.text)
+	result = (quote.encode('ascii','ignore')).decode("utf-8")
+	return result.strip()
+	
+	
 def download_page(url):
 	try:
 		headers_ = {}
@@ -155,18 +163,19 @@ def update_frontier(new_links):
 	return frontier
  
 def employee_scrape(url, soup):
+	global id
 	_name = soup.find("h1").text
 	_title = soup.find("div", id="staff-single-position").text
 	_image = soup.find("img", class_="staff-single-media-img")
-	_quote = soup.blockquote.p.text
+	_quote = find_Quote(soup)
 	_beschrijving = find_Beschrijving(soup)
 	_clients = find_KwaliteitenErvaring(soup, "Opdrachtgevers:")
 	_talents = find_KwaliteitenErvaring(soup, "Kennis en vaardigheden:")
 
-	entity = dict(url=str(url), quote=str(_quote), beschrijving=str(_beschrijving), name=str(_name), title=_title, depiction=_image["src"], clients=_clients, talents=_talents)
+	entity = dict(id=id, url=str(url), quote=str(_quote), beschrijving=str(_beschrijving), name=str(_name), title=_title, depiction=_image["src"], clients=_clients, talents=_talents)
 
 	print(entity)
-
+	id+=1
 	return entity
 
 def Crawl():
@@ -231,8 +240,8 @@ def Crawl():
 Crawl()
 
 #store data extracted in a json file
-with open(database, 'w') as f2:
-	json.dump(jsonList, f2)
+with open(database, 'w', encoding='utf-8') as f2:
+	json.dump(jsonList, f2, ensure_ascii=False)
 	
 
 
