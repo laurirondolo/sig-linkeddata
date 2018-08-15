@@ -2,166 +2,257 @@
 @prefix schema: <http://schema.org/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix up: <http://purl.oclc.org/NET/UNIS/up#> .
+@prefix ex: <http://www.example.taxonic.com#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdfs_quotes: <http://rdfs.org/sioc/quotes#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://example.com/person/Jan%20Voskuil> a schema:Person ;
+<http://example.taxonic.com/person/Jan%20Voskuil> a schema:Person ;
+	skos:prefLabel "Jan Voskuil" ;
+	rdfs:label "Jan Voskuil" ;
+	schema:description "Met een achtergrond als taalwetenschapper begrijpt Jan de begrippenstructuur en het belang van Linked Data en SKOS als geen ander. Hij heeft zich daarom, vanuit een inhoudelijke drijfveer, hard gemaakt voor de ontwikkeling van Linked Data in Nederland. Jan leest graag en is geïnteresseerd in geologie; dat is geen vreemde combinatie voor een informatie architect. Jan komt goed tot zijn recht in een complexe omgeving waarin moeilijk te verenigen belangen een rol spelen. Met een scherp gevoel voor de manier waarop mensen met taal en informatie omgaan en weet Jan waar de waarde van hun informatie in schuilt. Als architect en informatiemanager wil Jan de brug slaan tussen dagelijks taalgebruik, het gedrag van mensen en de werking van informatiesystemen. Jan denkt procesmatig en weet de haalbaarheid van adviezen goed in te schatten door jarenlange ervaring met diverse ontwikkelingen van de dienstverlening bij organisaties. Hij kan situationele factoren als eigenaarschap, governance en kwaliteit bij organisaties scherp positioneren om, ondanks verschillende belangen, tot een optimaal resultaat te komen. Jan is een “thought leader” met diverse publicaties op zijn naam over case management en zaakgericht werken, regelbeheersing, semantiek, Linked Data en de toepassing van innovatieve technologie. Ook heeft hij SKOS in Nederland op de kaart gezet door deze zo te agenderen dat hij wordt opgenomen in de ‘pas-toe-of-leg-uit’-lijst." ;
+	rdfs_quotes:quotes "Mijn droom is altijd geweest om een team van inhoudelijk gedreven specialisten om me heen te hebben om samen innovatie te bewerkstelligen." ;
 	schema:name "Jan Voskuil" ;
 	schema:jobTitle "CEO" ;
 	foaf:depiction <https://www.taxonic.com/cms/uploads/Jan-Voskuil-Taxonic.jpg> ;
 	schema:url <https://www.taxonic.com/medewerker/jan-voskuil> ;
-	foaf:worksWith "NL EVD Internationaal" , "Ministerie van Sociale Zaken en Werkgelegenheid" , "Rijkswaterstaat" , "Provincie Noord-Holland" , "Raad voor Rechtspraak" , "Ministerie van Economische Zaken" , "Dienst Justitiële Inrichting" ;
-	<http://purl.oclc.org/NET/UNIS/up#Ability> "Enterprise Architecture" , "Linked Data (SKOS)" , "IT Architecture" , "Informatiebeveiliging" , "Application architecture" , "Dynamisch Case Management" , "Informatiemanagement" , "Architectuur" .
+	foaf:worksWith "Rijkswaterstaat" , "Dienst Justitiële Inrichting" , "Ministerie van Economische Zaken" , "Ministerie van Sociale Zaken en Werkgelegenheid" , "Raad voor Rechtspraak" , "NL EVD Internationaal" , "Provincie Noord-Holland" ;
+	up:Ability "Architectuur" , "Informatiemanagement" , "Linked Data (SKOS)" , "Enterprise Architecture" , "Dynamisch Case Management" , "Informatiebeveiliging" , "Application architecture" , "IT Architecture" .
 
-<http://example.com/person/Reza%20Ahmadi> a schema:Person ;
+<http://example.taxonic.com/person/Reza%20Ahmadi> a schema:Person ;
+	skos:prefLabel "Reza Ahmadi" ;
+	rdfs:label "Reza Ahmadi" ;
+	schema:description "Reza heeft aan de TU Delft Informatica gestudeerd. Daarna heeft hij verschillende rollen vervuld; van diverse Oracle/Java opdrachten en architectuur, tot offertetrajecten en pre-sales en sales. Inmiddels heeft Reza ruim 25 jaar ervaring als solution architect met software architectuur en ontwikkelstraten. Reza kan een belangrijke rol spelen in de vertaling van vragen uit de organisatie naar automatiseringsoplossingen. Daarbij streeft hij, zowel zakelijk als persoonlijk, altijd naar perfectie. Reza is pas tevreden als een opdracht voor de klant tot een goed einde is gebracht. Hij is een man van de praktijk die met beide benen op de grond blijft staan. Kenmerkend voor Reza is zijn flexibele houding, die zich uit in het vermogen samen te werken én leiding te geven aan verschillende personen en groepen in uiteenlopende omgevingen. Hij beheerst diverse technieken, heeft een onbeperkte inzet en loyaliteit en is stressbestending." ;
+	rdfs_quotes:quotes "Zonder draagvlak bij de business dient niet begonnen te worden met architectuur." ;
 	schema:name "Reza Ahmadi" ;
 	schema:jobTitle "CTO" ;
 	foaf:depiction <https://www.taxonic.com/cms/uploads/Reza-Ahmadi-Taxonic.jpg> ;
 	schema:url <https://www.taxonic.com/medewerker/reza-ahmadi> ;
-	foaf:worksWith "ING" , "Ministerie van OC&amp;W" , "International Criminal Court" , "Centraal Bureau voor de Statistiek" , "Rijkswaterstaat" , "Inspectie voor de gezondheidszorg" , "Gemeente Den Haag" , "European Patent Office" , "Ministerie van VWS" , "Koninklijke Bibliotheek" , "Ministerie van Justitie" , "Amsterdam Airport Schiphol" , "CMG/LogicaCMG/Logica" , "UWV" ;
-	<http://purl.oclc.org/NET/UNIS/up#Ability> "Enterprise Architecture" , "IT Architecture" , "Informatiebeveiliging" , "Event Driven Architecture" , "IT-Advisering" , "Service Oriented Architecture" , "Dynamisch Case Management" , "Oracle/Java Delivery Centre" , "Reference Architecture" , "Application Architecture" .
+	foaf:worksWith "Gemeente Den Haag" , "Rijkswaterstaat" , "Ministerie van Justitie" , "Inspectie voor de gezondheidszorg" , "Ministerie van VWS" , "International Criminal Court" , "CMG/LogicaCMG/Logica" , "Centraal Bureau voor de Statistiek" , "UWV" , "European Patent Office" , "Koninklijke Bibliotheek" , "Ministerie van OC&amp;W" , "Amsterdam Airport Schiphol" , "ING" ;
+	up:Ability "Oracle/Java Delivery Centre" , "Enterprise Architecture" , "Reference Architecture" , "Event Driven Architecture" , "Dynamisch Case Management" , "Informatiebeveiliging" , "Service Oriented Architecture" , "IT Architecture" , "Application Architecture" , "IT-Advisering" .
 
-<http://example.com/person/Domien%20Bolmers> a schema:Person ;
+<http://example.taxonic.com/person/Domien%20Bolmers> a schema:Person ;
+	skos:prefLabel "Domien Bolmers" ;
+	rdfs:label "Domien Bolmers" ;
+	schema:description """Domien heeft ruime ervaring in leidinggevende rollen binnen professionele organisaties. Hij is analytisch ingesteld, resultaatgericht, maar met oog voor de realiteit. No-nonsense, hard werken en recht door zee.
+Zijn doelstellingen formuleert hij helder en duidelijk. Hij gaat rationeel te werk en bekijkt dingen graag vanuit verschillende invalshoeken om tot een beslissing te komen. Daarnaast neemt Domien gemakkelijk het initiatief om zijn werk vorm te geven. Domien voelt zich verantwoordelijk voor de kwaliteit van zijn eigen werk én dat van anderen. Hij is sterk in het stimuleren en enthousiasmeren van zijn omgeving. Daagt hun hierbij uit om meer uit zichzelf te halen, wijst mensen op hun eigen verantwoordelijkheid, maar geeft ook waar nodig richting en ondersteuning.""" ;
+	rdfs_quotes:quotes "Samen werken aan veranderingen, oplossingen en verbeteringen en er voor zorgen dat de juiste dienstverlening zo effectief mogelijk wordt geleverd geven mij veel voldoening." ;
 	schema:name "Domien Bolmers" ;
 	schema:jobTitle "Teammanager & Competence manager" ;
 	foaf:depiction <https://www.taxonic.com/cms/uploads/Domien-Bolmers-Taxonic.jpg> ;
 	schema:url <https://www.taxonic.com/medewerker/domien-bolmers> ;
-	foaf:worksWith "ING" , "SNS bank" , "Aon" , "Shell" , "Taxonic" , "Staatsloterij" , "Vopak" , "Interpolis" , "Rabobank" , "Generali" ;
-	<http://purl.oclc.org/NET/UNIS/up#Ability> "Software ontwikkeling" , "Propositie ontwikkeling" , "IT-advisering" , "Consultancy" , "SOX compliancy" , "People management" , "Shared Service Centres" , "Enterprise Resource Planning" , "Banken en verzekeringen" , "Competence management" , "Service delivery" , "Project- en teammanagement" , "Oracle Applications" .
+	foaf:worksWith "Aon" , "Vopak" , "Rabobank" , "Interpolis" , "Generali" , "Staatsloterij" , "SNS bank" , "Shell" , "Taxonic" , "ING" ;
+	up:Ability "Consultancy" , "Project- en teammanagement" , "Banken en verzekeringen" , "Competence management" , "Enterprise Resource Planning" , "Propositie ontwikkeling" , "Oracle Applications" , "SOX compliancy" , "Shared Service Centres" , "IT-advisering" , "Software ontwikkeling" , "People management" , "Service delivery" .
 
-<http://example.com/person/Mark%20Pruimboom> a schema:Person ;
+<http://example.taxonic.com/person/Mark%20Pruimboom> a schema:Person ;
+	skos:prefLabel "Mark Pruimboom" ;
+	rdfs:label "Mark Pruimboom" ;
+	schema:description """Mark heeft zijn Master of Science Industrieel Management behaald aan de Universiteit van Hertfordshire in Engeland en daarnaast heeft hij een Bachelor graad in Commerciële Bedrijfskunde en Elektrotechniek van Hogeschool Arnhem Nijmegen en Fontys Hogescholen. Hij heeft ruim 20 jaar commerciële werkervaring opgedaan in de wereld van ICT, zowel bij grote software implementaties als change managementprojecten ten behoeve van gebruikersadoptie. Hij bediende klanten binnen de Nederlandse Ministeries, Provincies en de industrie o.a. Shell en BAM. Voor verschillende werkgevers heeft hij gewerkt o.a. bij Pegasystems in de rol van Account Executive. Mark vervult de rol binnen Taxonic van Sales Manager en heeft een sterke focus op de Pega dienstverlening van Taxonic. Hij zal zowel met bestaande als nieuwe klanten en partners in overleg gaan om te zien waar Taxonic van dienst kan zijn.
+Mark wordt omschreven door zijn omgeving als een eerlijk, vriendelijk en enthousiast gedreven persoon en opereert bijzonder goed in complexe organisaties om samen met de klant de gewenste project resultaten te behalen.""" ;
+	rdfs_quotes:quotes "Ik krijg energie uit het helpen van klanten om samen met hun business- en IT-vragen op te oplossen, door het adviseren van haalbare- en betaalbare oplossingen." ;
 	schema:name "Mark Pruimboom" ;
 	schema:jobTitle "Sales Manager" ;
 	foaf:depiction <https://www.taxonic.com/cms/uploads/Mark-Pruimboom-Taxonic.jpg> ;
 	schema:url <https://www.taxonic.com/medewerker/mark-pruimboom> ;
-	foaf:worksWith "Taxonic" , "Ontuitive" , "eSupportConsulting" , "EMC" , "Pegasystems" ;
-	<http://purl.oclc.org/NET/UNIS/up#Ability> "Business Development" , "Sales Management &amp; Marketing" .
+	foaf:worksWith "EMC" , "eSupportConsulting" , "Pegasystems" , "Ontuitive" , "Taxonic" ;
+	up:Ability "Sales Management &amp; Marketing" , "Business Development" .
 
-<http://example.com/person/Paul%20van%20den%20Bosch> a schema:Person ;
+<http://example.taxonic.com/person/Paul%20van%20den%20Bosch> a schema:Person ;
+	skos:prefLabel "Paul van den Bosch" ;
+	rdfs:label "Paul van den Bosch" ;
+	schema:description "Paul is opgeleid als Industrieel Ontwerper en is altijd op zoek naar innovatieve oplossingen met de juiste combinatie van nieuwe technologie, procesondersteuning en  een mensgerichte aanpak. Hij is leergierig en verdiept zich graag in nieuwe materie zodat hij de klantsituatie goed begrijpt en snel domeinkennis kan opdoen. Paul heeft meer dan 25 jaar ervaring in de IT in diverse rollen, o.a. als business consultant, informatie manager en product manager, zowel bij grote internationale ondernemingen als bij een kleine internet startup. Hij heeft gewerkt in verschillende sectoren, waaronder de proces- en manufacturing industrie, de overheid, engineering en de gezondheidszorg. Paul is communicatief sterk en werkt analytisch. Zijn kwaliteit is het helder krijgen van de business requirements. Hij ziet dat ontwikkelingen zoals Big Data, het inzetten van Kunstmatige Intelligentie en de behoefte om kwalitatief hoogwaardige informatie te kunnen vinden, vragen om nieuwe oplossingen zoals Linked Data." ;
+	rdfs_quotes:quotes "Ik vind het interessant om de mogelijkheden van nieuwe technologie te verkennen en ik wil bedrijven en organisaties helpen om deze nieuwe technologie op een zinvolle wijze in te zetten." ;
 	schema:name "Paul van den Bosch" ;
 	schema:jobTitle "Business Consultant" ;
 	foaf:depiction <https://www.taxonic.com/cms/uploads/Paul-van-den-Bosch-Taxonic.jpg> ;
 	schema:url <https://www.taxonic.com/medewerker/paul-van-den-bosch> ;
-	foaf:worksWith "AgentschapNL" , "Cap Gemini" , "TAQA Energy" , "Eneco Services" , "Fujitsu Technology Solutions" ;
-	<http://purl.oclc.org/NET/UNIS/up#Ability> "Enterprise Content Management" , "Pakket Selectie" , "Trend Watching &amp; Innovatie" , "Design Thinking" , "Requirements Management" , "Business Process Management" , "Agile SCRUM (Product Owner)" , "Kennis Management" , "Business Information Planning" , "Business Analyse" , "Product Management" .
+	foaf:worksWith "Fujitsu Technology Solutions" , "Cap Gemini" , "TAQA Energy" , "AgentschapNL" , "Eneco Services" ;
+	up:Ability "Product Management" , "Requirements Management" , "Trend Watching &amp; Innovatie" , "Design Thinking" , "Enterprise Content Management" , "Business Information Planning" , "Agile SCRUM (Product Owner)" , "Pakket Selectie" , "Business Process Management" , "Kennis Management" , "Business Analyse" .
 
-<http://example.com/person/Gerwin%20van%20de%20Kamp> a schema:Person ;
+<http://example.taxonic.com/person/Gerwin%20van%20de%20Kamp> a schema:Person ;
+	skos:prefLabel "Gerwin van de Kamp" ;
+	rdfs:label "Gerwin van de Kamp" ;
+	schema:description "Gerwin is een flexibele en resultaatgerichte business consultant met ruime ervaring binnen de bancaire sector. Hij onderscheidt zich door klantbehoeftes te inventariseren en te vertalen naar klantgerichte oplossingen die waarde toevoegen voor de klant. Met een bedrijfskundige informatica achtergrond is hij in staat processen in kaart te brengen als business consultant. Vervolgens bedenkt hij als business change manager creatieve klantgerichte oplossingen en vertaalt de klantwens voor het ontwikkelteam. En bij succes te implementeren als implementatiemanager om daarna support te kunnen leveren als functioneel consultant. Heeft ervaring met dynamic case management en is Pega Certified Systems Architect (CSA). Gerwin is daarmee allround inzetbaar voor implementaties van producten en of diensten van Taxonic en onze klanten. Snel toegevoegde waarde kunnen leveren voor klanten heeft bij Gerwin de prioriteit. Door opgedane ervaringen in verschillende scrum teams en certificeringen in Agile/ Lean en Scrum kan hij uw organisatie helpen snel en relevant te reageren op de veranderende klantbehoeften. Hij is zelfstandig, leergierig en past zich gemakkelijk aan in complexe omgevingen. Als teamplayer beschikt hij over uitstekende communicatieve en sociale vaardigheden en door uitstekend stakeholder management en efficiënte besluitvorming zijn resultaten snel zichtbaar." ;
+	rdfs_quotes:quotes "Toegevoegde waarde leveren en het goed managen van de verandering heeft mijn top prioriteit." ;
 	schema:name "Gerwin van de Kamp" ;
 	schema:jobTitle "Pega Systems Architect" ;
 	foaf:depiction <https://www.taxonic.com/cms/uploads/Gerwin-van-de-Kamp-Taxonic.jpg> ;
 	schema:url <https://www.taxonic.com/medewerker/gerwin-van-de-kamp-2> ;
-	foaf:worksWith "Taxonic" , "Darwin-IT Professionals" ;
-	<http://purl.oclc.org/NET/UNIS/up#Ability> "Pega 7 platform" , "Change management" , "Implementatie management" , "Bancaire processen" , "Dynamic case management" , "CRM/ Workflow" , "Agile SCRUM (Scrum Master, Product owner)" , "Business process management" .
+	foaf:worksWith "Darwin-IT Professionals" , "Taxonic" ;
+	up:Ability "Implementatie management" , "CRM/ Workflow" , "Business process management" , "Bancaire processen" , "Dynamic case management" , "Agile SCRUM (Scrum Master, Product owner)" , "Pega 7 platform" , "Change management" .
 
-<http://example.com/person/Sjoerd%20Ronner> a schema:Person ;
+<http://example.taxonic.com/person/Sjoerd%20Ronner> a schema:Person ;
+	skos:prefLabel "Sjoerd Ronner" ;
+	rdfs:label "Sjoerd Ronner" ;
+	schema:description "Sjoerd Ronner is Business Architect bij Taxonic. Sjoerd haalt energie uit het analyseren van inhoudelijke vraagstukken en de koppeling te maken naar praktische oplossingen. Eigenschappen die anderen Sjoerd toebedelen zijn sociaal, helder, pragmatisch, enthousiasme en verbindend. Samenwerken is verbindingen leggen en door te focussen op persoonlijke verbindingen werkt Sjoerd legt door zijn genoten opleidingen gemakkelijk de koppeling tussen afdelingen en personen. Daarnaast is hij toegankelijk. Sjoerd heeft door zijn werk en officiersopleiding aan de Koninklijke Militaire Academie (KMA) ervaren dat er resultaten geboekt moeten worden maar dat het proces hoe een team dat resultaat wilt behalen niet minder belangrijk is. Sjoerd is gecertificeerd als Certified Pega Business Architect (CPBA)." ;
+	rdfs_quotes:quotes "Als je geen oog hebt voor hoe mensen in een organisatie met elkaar omgaan, gaat je advies nooit werken." ;
 	schema:name "Sjoerd Ronner" ;
 	schema:jobTitle "Pega Business Architect" ;
 	foaf:depiction <https://www.taxonic.com/cms/uploads/Sjoerd-Ronner-Taxonic.jpg> ;
 	schema:url <https://www.taxonic.com/medewerker/sjoerd-ronner> ;
-	foaf:worksWith "Koninklijke Militaire Academie" , "Taxonic" , "Bvolve" , "Slokker Innovate" , "Philips" ;
-	<http://purl.oclc.org/NET/UNIS/up#Ability> "Agile Scrum" , "Dynamic Case Management" , "Architect" , "BPM" , "TOGAF" , "Archimate" , "BiZZdesign Enterprise Studio" , "Architectuur" .
+	foaf:worksWith "Bvolve" , "Philips" , "Koninklijke Militaire Academie" , "Slokker Innovate" , "Taxonic" ;
+	up:Ability "Architectuur" , "Archimate" , "BPM" , "BiZZdesign Enterprise Studio" , "Dynamic Case Management" , "TOGAF" , "Agile Scrum" , "Architect" .
 
-<http://example.com/person/Shahbaz%20Rasti> a schema:Person ;
+<http://example.taxonic.com/person/Shahbaz%20Rasti> a schema:Person ;
+	skos:prefLabel "Shahbaz Rasti" ;
+	rdfs:label "Shahbaz Rasti" ;
+	schema:description "Direct na zijn studie Technische Bedrijfskunde aan de Hogeschool van Amsterdam (2012) is Shahbaz zijn loopbaan gestart als IT-consultant. Na het volgen van een intensief Young Professional programma heeft hij sindsdien bij meerdere opdrachtgevers, van MKB tot Multinationals, binnen diverse sectoren gewerkt aan complexe IT-projecten. Hij heeft ervaring in de financiële sector, zorgsector, telecom, onderwijs en maakindustrie. Hij is Certified Pega Business Architect (CPBA), Pega Certified Senior Systems Architect (CSSA) en Pega Certified Systems Architect (CSA). Hij heeft uitgebreide ervaring en kennis opgedaan met o.a. requirements management, opstellen van business cases, ontwerpen en optimaliseren van bedrijfsprocessen (BPM), pakketselectietrajecten, testmanagement en projectcoördinatie. Zijn dynamische houding stelt hem in staat om gemakkelijk binnen elk organisatie en team te kunnen functioneren. Hij weet de materie snel eigen te maken waardoor hij snel een waardevolle asset binnen het team wordt. Onderscheidend vermogen van Shahbaz is zijn commercieel inzicht en ondernemerschapsmentaliteit. Vóór en tijdens zijn studie heeft hij meerdere bedrijven gestart waardoor hij op een zeer jonge leeftijd al in aanraking is gekomen met het ondernemerschap. In zijn dagelijkse werkzaamheden als informatieanalist past hij deze klant- en waarde gerichte mentaliteit continu toe." ;
+	rdfs_quotes:quotes "Grootste bedreiging voor hedendaagse organisaties is het gebrek aan verandering en innovatie." ;
 	schema:name "Shahbaz Rasti" ;
 	schema:jobTitle "Pega Systems Architect" ;
 	foaf:depiction <https://www.taxonic.com/cms/uploads/Shahbaz-Rasti-Taxonic.jpg> ;
 	schema:url <https://www.taxonic.com/medewerker/shahbaz-rasti> ;
-	foaf:worksWith "FrieslandCampina" , "ArboUnie" , "Taxonic" , "Universiteit Utrecht" ;
-	<http://purl.oclc.org/NET/UNIS/up#Ability> "Implementatie Management" , "E-Commerce" , "Dynamic Case Management" , "Testmanagement" , "Requirements Engineering" , "Pega 7 Platform" , "Business Process Management" , "Agile SCRUM" , "Use Case ontwerp" , "Product- service innovatie" .
+	foaf:worksWith "ArboUnie" , "FrieslandCampina" , "Taxonic" , "Universiteit Utrecht" ;
+	up:Ability "Pega 7 Platform" , "Use Case ontwerp" , "Testmanagement" , "Dynamic Case Management" , "Agile SCRUM" , "Business Process Management" , "E-Commerce" , "Requirements Engineering" , "Implementatie Management" , "Product- service innovatie" .
 
-<http://example.com/person/Geoffrey%20Gaspersz> a schema:Person ;
+<http://example.taxonic.com/person/Geoffrey%20Gaspersz> a schema:Person ;
+	skos:prefLabel "Geoffrey Gaspersz" ;
+	rdfs:label "Geoffrey Gaspersz" ;
+	schema:description "Als business consultant, business analyst en information analyst heeft Geoffrey inmiddels 25 jaar ervaring in vele branches: van logistiek, financieel tot de zorg. Hij is Pega Certified Systems Architect (CSA), Certified Pega Business Architect (CPBA) , Certified Pega Decisioning Consultant (CPDC) en Certified Professional Scrum Master. Geoffrey heeft daarnaast management opleidingen gedaan: IT manager en Voortgezet Management (aan de Nederlanse Management Stichting). Als persoon is Geoffrey analytisch, slagvaardig en verbetergericht. Het proactieve nastreven van noodzakelijke innovatieve technologische veranderingen zit in zijn bloed. Hij werkt met mensen van alle niveaus binnen een bedrijf (van directeuren/managers tot eindgebruikers) om organisaties effectief en efficiënt te laten functioneren. Samen met hen probeert Geoffrey de juiste fit te realiseren juiste fit tussen beleid, organisatie, werkproces en informatiesysteem. Daarbij probeert hij en organisatie breed draagvlak te creëren. Zonder dit element is er geen borging in de organisatie en kan het beoogde resultaat nooit bereikt worden. Geoffrey functioneert goed in teamverband en behoudt het overzicht indien de complexiteit groeit en is communicatief vaardig, ook als er langdurig hard gewerkt moet worden. Hij is flexibel en schakelt gemakkelijk van rol naar rol indien dat nodig is. Geoffrey begrijpt de stakeholders met hun eisen en wensen uitstekend en kan prioriteiten stellen in overleg met hen." ;
+	rdfs_quotes:quotes "Een bedrijfsprobleem is nooit een toeval. Toeval is logisch, want het is mensenwerk. Ken die mens dan ken je de oplossing van het probleem." ;
 	schema:name "Geoffrey Gaspersz" ;
 	schema:jobTitle "Pega Systems Architect" ;
 	foaf:depiction <https://www.taxonic.com/cms/uploads/Geoffrey-Gaspersz-Taxonic.jpg> ;
 	schema:url <https://www.taxonic.com/medewerker/geoffrey-gaspersz> ;
-	foaf:worksWith "Blokker" , "Taxonic" , "Zetes" , "Uniservices" , "Koninklijke Nederlandsche Maatschappij tot bevordering der Geneeskunst" , "Datashare" , "Gemeente Amerongen" , "Staring Centrum" , "Centrum indicatiestelling zorg" ;
-	<http://purl.oclc.org/NET/UNIS/up#Ability> "Coaching" , "Koppelingen (GBA, WID-check, UZI, CIZ-CAK-bericht, iWLZ)" , "Projectleiding" , "Business Process Management" , "Information en Requirement management" , "Kennis Management" , "Business Information Planning" , "Agile – SCRUM" , "Pakket selecties en -implementaties" .
+	foaf:worksWith "Blokker" , "Zetes" , "Gemeente Amerongen" , "Centrum indicatiestelling zorg" , "Staring Centrum" , "Datashare" , "Koninklijke Nederlandsche Maatschappij tot bevordering der Geneeskunst" , "Uniservices" , "Taxonic" ;
+	up:Ability "Koppelingen (GBA, WID-check, UZI, CIZ-CAK-bericht, iWLZ)" , "Business Information Planning" , "Pakket selecties en -implementaties" , "Business Process Management" , "Coaching" , "Information en Requirement management" , "Projectleiding" , "Agile – SCRUM" , "Kennis Management" .
 
-<http://example.com/person/Max%20Westerveld> a schema:Person ;
+<http://example.taxonic.com/person/Max%20Westerveld> a schema:Person ;
+	skos:prefLabel "Max Westerveld" ;
+	rdfs:label "Max Westerveld" ;
+	schema:description "Max is een collegiale sociale en communicatief sterke analyticus, die zich graag bezig houdt met waar het in uw bedrijf werkelijk om gaat. Bedrijfsprocessen zijn daarbij een belangrijk hulpmiddel maar dat is nooit het hogere doel! Vanuit een technische IT achtergrond in o.a. de financiële wereld en bij de overheid heeft hij zich in de loop der jaren ontwikkeld in de richting van de functionele kant van de het vak. Hij heeft oog voor wat de gebruiker helpt zijn dagelijks werk te kunnen doen en wordt gelukkig als hij een oplossing kan vinden waarbij het systeem ondersteunt in plaats van een keurslijf te zijn. Maatschappelijke betrokkenheid is een belangrijk kenmerk van Max. Als voorzitter van de wijkraad Schadewijk probeert hij op te komen voor zijn mede-wijkbewoners. Daarbij probeert hij een brug te bouwen tussen de zijn wijk en de gemeente. Zowel de politiek als de ambtenarij. Daarnaast is hij actief als EHBO-er in uitgaansleven en bij sportevenementen. Max is bekend met het hele software ontwikkelproces: van requirement- analyse en ontwerp tot aan implementatie, optimalisatie, testen en opleveren. Daarbij heeft hij zich ook stevig verdiept in Agile methoden zoals SCRUM en Kanban al dan niet werkend in een framework zoals SAFe. De laatste jaren heeft Max zich toegelegd op BPM en DCM oplossingen in o.a. Blueriq (voorheen Aquima) en Pega. Certificeringen als Pega Certified Senior Systems Architect (CSSA) en Pega Certified System Architect (CSA) zijn daarbij een garantie voor kwaliteit." ;
+	rdfs_quotes:quotes "Het system ontslaat je nooit van de plicht zelf na te denken" ;
 	schema:name "Max Westerveld" ;
 	schema:jobTitle "Pega Systems Architect" ;
 	foaf:depiction <https://www.taxonic.com/cms/uploads/Max-Westerveld-Taxonic.jpg> ;
 	schema:url <https://www.taxonic.com/medewerker/max-westerveld> ;
-	foaf:worksWith "Equens" , "Stater" , "ING bank" , "Westland Utrecht bank" , "KSI" , "NVWA" , "PTT-Telecom" , "Taxonic" , "Everest" , "Raad voor Rechtsbijstand" , "Credit Lyonais bank" , "Ordina/ Infradesigen" , "Houtsma bedrijfsadvies" , "Fortisbank" , "Orbis Software" , "BKR" , "Chiron-IT" , "Rabobank" , "SNS" ;
-	<http://purl.oclc.org/NET/UNIS/up#Ability> "Agile methoden" , "Informatie analyse" , "Dynamic Case Management" , "Softwareontwikkeling" , "Business Proces Management" .
+	foaf:worksWith "ING bank" , "Orbis Software" , "Ordina/ Infradesigen" , "Everest" , "Raad voor Rechtsbijstand" , "SNS" , "Fortisbank" , "Houtsma bedrijfsadvies" , "Chiron-IT" , "Credit Lyonais bank" , "Stater" , "Rabobank" , "NVWA" , "PTT-Telecom" , "KSI" , "Equens" , "Westland Utrecht bank" , "Taxonic" , "BKR" ;
+	up:Ability "Softwareontwikkeling" , "Informatie analyse" , "Agile methoden" , "Business Proces Management" , "Dynamic Case Management" .
 
-<http://example.com/person/Guido%20van%20der%20Wolk> a schema:Person ;
+<http://example.taxonic.com/person/Guido%20van%20der%20Wolk> a schema:Person ;
+	skos:prefLabel "Guido van der Wolk" ;
+	rdfs:label "Guido van der Wolk" ;
+	schema:description "Guido is afgestudeerd filosoof en sterrenkundige. Hij heeft veel affiniteit met taal, communicatie en het ontwikkelen van complexe producten. In zijn promotieonderzoek in de sterrenkunde heeft hij zich gespecialiseerd in digitale beeldverwerking en Big Data op basis van statistische methoden. Hij krijgt veel energie van innoveren en het bedenken en realiseren van direct toepasbare oplossingen. Daarom is hij aan de slag gegaan als software engineer. In het werk voor Taxonic wordt Guido’s drive om te delen en te inspireren ten volle benut. Hij is expert in het koppelen, inzichtelijk maken en analyseren van grote hoeveelheden data. Dit zorgt ervoor dat complexe materie toegankelijk wordt en gebruikt kan worden voor innovatie. Guido heeft in verschillende sectoren ervaring opgedaan met het ontwikkelen van webapplicaties op basis van semantische technologieën en is bekend met het volledige software ontwikkelproces. Hij heeft ruime ervaring met het werken in een Scrum-team en doet dat altijd met een kritische en wetenschappelijke blik. Zijn onderzoekende houding en analytische vaardigheden motiveren hem om elke puzzel op te lossen." ;
+	rdfs_quotes:quotes "Dankzij Linked Data technologie kunnen organisaties steeds slimmer en sneller hun kennis uitwisselen. Zo kunnen innovatieve antwoorden worden gegeven op vragen die nog nooit eerder gesteld zijn." ;
 	schema:name "Guido van der Wolk" ;
 	schema:jobTitle "Software Engineer" ;
 	foaf:depiction <https://www.taxonic.com/cms/uploads/Guido-van-der-Wolk-Taxonic.jpg> ;
 	schema:url <https://www.taxonic.com/medewerker/guido-van-der-wolk> ;
 	foaf:worksWith "Huisman Equipments" , "Vancis, Advanced ICT Services" ;
-	<http://purl.oclc.org/NET/UNIS/up#Ability> "Technisch projectleider" , "E-Commerce" , "Client/Server Systems" , "Continuous Delivery &amp; Integration" , "Application Servers" , "Big Data" , "PHP" , ".NET" , "Web Services" , "Security Code Reviewer" , "Data visualisatie" , "Java" , "Open Source" , "Digital Image Processing" , "Oracle Database" , "Quality Reviewer" , "Linux" , "DevOps" .
+	up:Ability "Oracle Database" , "Continuous Delivery &amp; Integration" , "Linux" , ".NET" , "Web Services" , "PHP" , "Big Data" , "Open Source" , "Technisch projectleider" , "Digital Image Processing" , "Data visualisatie" , "Quality Reviewer" , "Java" , "DevOps" , "E-Commerce" , "Application Servers" , "Security Code Reviewer" , "Client/Server Systems" .
 
-<http://example.com/person/Hedde%20van%20der%20Veer> a schema:Person ;
+<http://example.taxonic.com/person/Hedde%20van%20der%20Veer> a schema:Person ;
+	skos:prefLabel "Hedde van der Veer" ;
+	rdfs:label "Hedde van der Veer" ;
+	schema:description "Hedde is in 2014 afgestudeerd in de ontwikkelingspsychologie. Van nature is hij een goede luisteraar, creatief, leergierig en gedisciplineerd. Hedde ziet de overeenkomsten tussen de mens en IT als een voortdurende wisselwerking tussen individu en omgeving. Met veel enthousiasme en doorzettingsvermogen is Hedde later omgeschoold tot een IT’er met een sterk sociale achtergrond. Hiermee is hij een waardevolle en unieke speler in het team van Taxonic. Met die switch heeft Hedde laten zien dat hij nieuwe dingen durft aan te pakken. Dat is kenmerkend voor Hedde. Hij is de afgelopen jaren snel gegroeid tot een zeer technisch software ontwikkelaar en heeft ervaring opgedaan in zowel technisch als functioneel ontwerp. Hij is zelfstandig, staat open om te leren en past zich gemakkelijk aan. Als Software Engineer en Java ontwikkelaar heeft hij aangetoond snel nieuwe tools en omgevingen te kunnen aanleren. Door zijn sociale karakter deelt hij dit graag met anderen, zodat ook zij hiervan kunnen profiteren. Daarnaast weet hij snel zijn weg te vinden in een complex business domein. Hij heeft zich tijdens projecten bewezen als vraagbaak en motivator voor andere teamleden en betrokkenen. Hedde heeft de motivatie en discipline om zich, binnen elke opdracht en elk project, te ontwikkelen tot een nog betere programmeur. Hij is gedreven om innovatieve JEE webapplicaties te ontwikkelen met open source Oracle producten." ;
+	rdfs_quotes:quotes "Ik ben pro-actief, resultaatgericht en leergierig. Ik wil elke dag werken aan creatieve oplossingen en interessante innovaties." ;
 	schema:name "Hedde van der Veer" ;
 	schema:jobTitle "Software Engineer" ;
 	foaf:depiction <https://www.taxonic.com/cms/uploads/Hedde-van-der-Veer-Taxonic.jpg> ;
 	schema:url <https://www.taxonic.com/medewerker/hedde-van-der-veer> ;
-	foaf:worksWith "RSVier" , "Rabobank International" , "Taxonic interne projecten" ;
-	<http://purl.oclc.org/NET/UNIS/up#Ability> "Web development" , "Webservices" , "Databases" , "Java" , "Scrum/Agile" , "Version control" .
+	foaf:worksWith "RSVier" , "Taxonic interne projecten" , "Rabobank International" ;
+	up:Ability "Scrum/Agile" , "Webservices" , "Databases" , "Version control" , "Web development" , "Java" .
 
-<http://example.com/person/Ken%20Voskuil> a schema:Person ;
+<http://example.taxonic.com/person/Ken%20Voskuil> a schema:Person ;
+	skos:prefLabel "Ken Voskuil" ;
+	rdfs:label "Ken Voskuil" ;
+	schema:description "Ken heeft een sterke passie voor het ontwikkelen van software. Als hij niet aan het werk is, vind je hem bij meet-ups en conferenties, bestudeert hij het werk van andere programmeurs of werkt hij aan een van zijn talloze hobbyprojecten.Hij heeft ook veel interesse in hoe zaken onder de motorkap werken. Hij herimplementeert graag bestaande systemen en algoritmes uit academische teksten. Het diepe begrip van deze systemen, die hij hierbij opdoet, kan hij goed toepassen in de praktijk. Niet alleen bij het gebruik van deze systemen, maar ook bij het oplossen van nieuwe problemen." ;
+	rdfs_quotes:quotes "Ik doe elke dag mijn best om een betere developer te worden." ;
 	schema:name "Ken Voskuil" ;
 	schema:jobTitle "Software Engineer" ;
 	foaf:depiction <https://www.taxonic.com/cms/uploads/Ken-Voskuil-Taxonic.jpg> ;
 	schema:url <https://www.taxonic.com/medewerker/ken-voskuil> ;
-	foaf:worksWith "Abbey Games" , "Trifork" , "Edyt" , "ANWB" ;
-	<http://purl.oclc.org/NET/UNIS/up#Ability> "JavaScript" , "PHP" , "Java" , "C#" , "Golang" , "Web technologieen:" , "AngularJS" .
+	foaf:worksWith "Edyt" , "ANWB" , "Trifork" , "Abbey Games" ;
+	up:Ability "AngularJS" , "PHP" , "C#" , "Golang" , "Web technologieen:" , "JavaScript" , "Java" .
 
-<http://example.com/person/Victor%20Louwerse> a schema:Person ;
+<http://example.taxonic.com/person/Victor%20Louwerse> a schema:Person ;
+	skos:prefLabel "Victor Louwerse" ;
+	rdfs:label "Victor Louwerse" ;
+	schema:description "Met een achtergrond als ondernemer en zelfstandig games-ontwikkelaar, wordt Victor gekenmerkt door een krachtige combinatie van een hands-on mentaliteit en een manier van denken die niet beperkt wordt door bestaande kaders. Zijn affiniteit met technisch design en de vaardigheid om vrijwel ieder probleem op te lossen stellen hem in staat aan ieder project een waardevolle bijdrage te leveren. Als teamlid kan Victor diverse rollen vervullen, van software engineer tot information architect, tot project lead. Hij heeft onderdeel uitgemaakt van succesvolle projecten voor een variëteit aan klanten, waaronder startups en overheidsinstanties. Victor heeft volop ervaring met Java, web en mobile platformen, en is altijd geïnteresseerd in nieuwe technologieën en de mogelijkheden die ze bieden bij het oplossen van bestaande problemen. Tijdens zijn studie Computer Science heeft hij een passie ontwikkeld voor machine learning en kunstmatige intelligentie. Vandaag de dag is zijn enthousiasme gericht op Linked Data technologieën en de toepassing ervan in verschillende scenario’s. Verder heeft hij een fascinatie voor informatie architectuur die zowel effectief als elegant is. In zijn vrije tijd houdt Victor zich bezig met skiën, het bewonderen en maken van kunst, en up-to-date blijven met de laatste ontwikkelingen in de informatie technologie." ;
+	rdfs_quotes:quotes "Ik benader ieder probleemdomein vanuit de essentie. Dat stelt me uiteindelijk in staat effectieve oplossingen van de hoogste kwaliteit te ontwerpen en implementeren" ;
 	schema:name "Victor Louwerse" ;
 	schema:jobTitle "Software Engineer" ;
 	foaf:depiction <https://www.taxonic.com/cms/uploads/Victor-Louwerse-Taxonic.jpg> ;
 	schema:url <https://www.taxonic.com/medewerker/victor-louwerse> ;
-	foaf:worksWith "Erasmus MC" , "2Gears" , "Piggy Loyalty" , "E-conomy" , "Operator Group Delft" ;
-	<http://purl.oclc.org/NET/UNIS/up#Ability> "Web services, technologies" , "Java, Java EE" , "Javascript, NodeJS" , "Information architecture" , "Scrum" , "Linked Data" , "Docker" .
+	foaf:worksWith "Piggy Loyalty" , "Operator Group Delft" , "Erasmus MC" , "E-conomy" , "2Gears" ;
+	up:Ability "Java, Java EE" , "Javascript, NodeJS" , "Information architecture" , "Scrum" , "Linked Data" , "Docker" , "Web services, technologies" .
 
-<http://example.com/person/Tarsi%20Maria> a schema:Person ;
+<http://example.taxonic.com/person/Tarsi%20Maria> a schema:Person ;
+	skos:prefLabel "Tarsi Maria" ;
+	rdfs:label "Tarsi Maria" ;
+	schema:description """Tarsi is zeer gedreven en vooral ook erg nieuwsgierige software engineer. Hij heeft een brede basis in de software engineering en heeft zich in zijn carrière bewezen in complexe omgevingen. Tarsi zoekt graag een uitdaging op en haalt hier zijn energie uit om innovatieve oplossingen te bedenken.
+Tarsi heeft verschillende kennisdomeinen zijn eigen gemaakt waaronder: Tracking & Tracing, Intelligent Transport Systems en Medical Imaging.
+Tarsi heeft de kunde om zich op een probleem te storten in een onbekend kennisgebied en te komen tot een oplossing. Wat hierbij erg van pas komt is dat Tarsi communicatief sterk is en waar nodig de juiste personen weet te betrekken om de benodigde kennis op te doen. Tarsi is een teamplayer en heeft een sterk verantwoordelijkheidsgevoel.
+In zijn vrije tijd houdt Tarsi zich bezig met de klimsport ‘boulderen’. Ook hier gaat het vaak om creatieve oplossingen te bedenken voor een ‘klimpuzzel’.""" ;
+	rdfs_quotes:quotes "Software heeft een grote impact op ons dagelijks leven. Ik streef ernaar, met innovatieve software, hier ook een positieve bijdrage aan te leveren." ;
 	schema:name "Tarsi Maria" ;
 	schema:jobTitle "Software Engineer" ;
 	foaf:depiction <https://www.taxonic.com/cms/uploads/Tarsi-Maria-Taxonic.jpg> ;
 	schema:url <https://www.taxonic.com/medewerker/tarsi-maria> ;
-	foaf:worksWith "Leids Universitair Medisch Centrum (LUMC)" , "Taxonic" , "Operator Groep Delft" , "TOPDesk" , "Logica/CGI" , "ProRail" ;
-	<http://purl.oclc.org/NET/UNIS/up#Ability> "C/C++" , "Mission critical systems" , "Verschillende andere programmeertalen" , "Databases" , "Java" , "Productmanagment" , "Agile SCRUM" , "Intelligent Transport Systems (ITS)" , "Linux" .
+	foaf:worksWith "Leids Universitair Medisch Centrum (LUMC)" , "TOPDesk" , "Operator Groep Delft" , "ProRail" , "Logica/CGI" , "Taxonic" ;
+	up:Ability "Intelligent Transport Systems (ITS)" , "Linux" , "Productmanagment" , "Databases" , "Verschillende andere programmeertalen" , "Agile SCRUM" , "C/C++" , "Java" , "Mission critical systems" .
 
-<http://example.com/person/Dena%20Tahvildari> a schema:Person ;
+<http://example.taxonic.com/person/Dena%20Tahvildari> a schema:Person ;
+	skos:prefLabel "Dena Tahvildari" ;
+	rdfs:label "Dena Tahvildari" ;
+	schema:description """Dena heeft een achtergrond in Electrical Engineering (BS.c) en een Master in Information, Communication Technology (MS.c) van de Technische Universiteit van Delft.
+Zij is nu bezig met afronding van haar promotietraject aan de VU-universiteit en het research instutituut van de Universiteit in Wageningen. In haar promotieonderzoek werkt zij aan de combinatie van kennis gestuurde en data-gedreven benaderingen vooreen raamwerk voor semantische representatie van experimentele laboratorium methoden. Dena is in januari 2018 gestart bij Taxonic als Linked Data specialist. In samenwerking met collega’s biedt zij een oplossing voor het vastleggen en integreren van kennis bij bedrijven in verschillende sectoren. Zij is van nature een nieuwsgierig persoon en wil graag nieuwe dingen te leren. Zij is een onafhankelijke onderzoeker, maar werkt ook graag in teamverband. In haar vrije tijd speelt zij graag klassieke muziek op de piano.""" ;
+	rdfs_quotes:quotes "Wetenschappelijke talen zouden meer de formele taal moeten benaderen, omdat het schrijven van een wetenschappelijk artikel nu meer overeenkomt met het schrijven een computer programma in plaats van een gedicht. Formele modellen (ontologie) van wetenschappelijke kennis zijn hiervoor nodig." ;
 	schema:name "Dena Tahvildari" ;
 	schema:jobTitle "Linked Data Engineer" ;
 	foaf:depiction <https://www.taxonic.com/cms/uploads/Dena-Tahvildari-Taxonic.jpg> ;
 	schema:url <https://www.taxonic.com/medewerker/dena-tahvildari-2> ;
-	foaf:worksWith "Taxonic" , "Vrije universiteit Amsterdam" ;
-	<http://purl.oclc.org/NET/UNIS/up#Ability> "Protégé" , "TopBraidComposer" , "Philosophy of science" , "Python" , "Rapid Ontology Construction tool" , "Natural Language Processing" , "Ontologies" , "Knowledge Representation" , "e-science" , "R" .
+	foaf:worksWith "Vrije universiteit Amsterdam" , "Taxonic" ;
+	up:Ability "R" , "Ontologies" , "Rapid Ontology Construction tool" , "Protégé" , "Philosophy of science" , "Natural Language Processing" , "e-science" , "TopBraidComposer" , "Python" , "Knowledge Representation" .
 
-<http://example.com/person/Jesse%20Bakker> a schema:Person ;
+<http://example.taxonic.com/person/Jesse%20Bakker> a schema:Person ;
+	skos:prefLabel "Jesse Bakker" ;
+	rdfs:label "Jesse Bakker" ;
+	schema:description "Jesse is afgestudeerd in Information Sciences aan de Vrije Universiteit in Amsterdam, een van de meest toonaangevende onderzoekscentra op het gebied van Linked Data, met een specialisatie in Web en Media technologieën. Jesse heeft het vermogen om zich concepten en nieuwe technologieën snel eigen te maken en is gedreven om maatwerk te leveren wat simpel herbruikbaar is en begrepen door derden. Het werken in teamverband is erg vertrouwd voor Jesse en hij brengt graag een positieve bijdrage in onderlinge discussies. Met de ruime kennis die hij tijdens zijn studie heeft opgedaan is Jesse goed in staat om anderen te stimuleren in het vinden van oplossingen in hun eigen vakgebied." ;
+	rdfs_quotes:quotes "Modelleren is een iteratief proces. Je moet vaak falen, maar ook snel. Zo blijf je continue je model verbeteren en kom je dichter bij een optimaal model." ;
 	schema:name "Jesse Bakker" ;
 	schema:jobTitle "Linked Data Engineer" ;
 	foaf:depiction <https://www.taxonic.com/cms/uploads/Jesse-Bakker-Taxonic.jpg> ;
 	schema:url <https://www.taxonic.com/medewerker/jesse-bakker> ;
-	foaf:worksWith "Taxonic" , "Kadaster" ;
-	<http://purl.oclc.org/NET/UNIS/up#Ability> "Knowledge Engineering" , "Information Retrieval" , "Python" , "Natural Language Processing" , "Web Technology" , "Linked Data" , "Information Visualization" .
+	foaf:worksWith "Kadaster" , "Taxonic" ;
+	up:Ability "Knowledge Engineering" , "Information Retrieval" , "Web Technology" , "Natural Language Processing" , "Information Visualization" , "Linked Data" , "Python" .
 
-<http://example.com/person/Lauri%20Rondolo> a schema:Person ;
+<http://example.taxonic.com/person/Lauri%20Rondolo> a schema:Person ;
+	skos:prefLabel "Lauri Rondolo" ;
+	rdfs:label "Lauri Rondolo" ;
+	schema:description "Lauri’s passie is om systemen te ontwikkelen om een betere samenleving te creëren waar wij gezonder en efficiënter kunnen leven. Dit was haar motivatie om haar opleiding Lifestyle Informatics te behalen aan de Vrije Universiteit te Amsterdam. Het integratief modelleren van diverse processen (bijvoorbeeld emotieregulatie en het leiden van luchtverkeer) was de focus van haar opleiding en werd één van haar vele expertise. Ze heeft een achtergrond als voormalig chef-de-partie, die haar een toegewijde teamspeler maakt met doelgerichte communicatievaardigheden. Tijdens haar studie, kwamen er verschillende takken van Kunstmatige Intelligentie aan bod. Zij raakte onder de indruk van de kracht van ‘data-driven’ methodes en symbolische KI-modellen. Het liet haar afvragen over een toekomst waarin Machine Learning en het Semantische Web gecombineerd zijn. Dit zorgde ervoor dat zij zich focuste in het leren van nieuwe programmeertalen en technieken voor preprocessing en Linked Data doeleinden. Lauri gelooft dat het focussen op de ontwikkelingen en vooruitgang van elk veld uiteindelijk zal bijdragen aan het onderzoeksgebied van de twee gecombineerd." ;
+	rdfs_quotes:quotes "De wereld wordt kleurrijker en begrijpelijker met semantiek, zonder dat zou alles betekenisloos zijn." ;
 	schema:name "Lauri Rondolo" ;
 	schema:jobTitle "Linked Data Engineer" ;
 	foaf:depiction <https://www.taxonic.com/cms/uploads/Lauri-Rondolo-Taxonic.jpg> ;
 	schema:url <https://www.taxonic.com/medewerker/lauri-rondolo> ;
 	foaf:worksWith "Athena Instituut" , "Taxonic" ;
-	<http://purl.oclc.org/NET/UNIS/up#Ability> "Matlab" , "Machine LearningNatural Language Processing" , "Python" , "Java" , "Semantic Web" , "Knowledge Representation and Engineering" .
+	up:Ability "Semantic Web" , "Machine LearningNatural Language Processing" , "Knowledge Representation and Engineering" , "Matlab" , "Java" , "Python" .
 
-<http://example.com/person/Waqaar%20Beg> a schema:Person ;
+<http://example.taxonic.com/person/Waqaar%20Beg> a schema:Person ;
+	skos:prefLabel "Waqaar Beg" ;
+	rdfs:label "Waqaar Beg" ;
+	schema:description "Waqaar is een zeer gedreven en enthousiaste kracht binnen Taxonic. Hij heeft een breed en uniek kennisgebied door zijn nieuwsgierigheid in de continu veranderende omgeving. Hierdoor is hij op veel gebieden inzetbaar. Waqaar is een goede gesprekspartner en luistert graag. Daardoor weet hij zijn oplossingen en projecten naadloos aan te laten sluiten op de wensen van zijn klanten. Waqaar heeft veel ervaring als Security Consultant en Ethical Hacker. Hij kan op een hoog niveau problemen doorzien en kan goed omgaan met constante veranderingen. Hij heeft verschillende rollen vervuld in Application & Network Security zowel als DBA, ontwikkelaar, project- en team leider en trainer. Met een pro-actieve houding en teamskills kan hij vele rollen in een team succesvol vervullen. Hij heeft een uitgebreide kennis van zowel Microsoft, Oracle Unix, VMware producten als netwerken. Dat zorgt ervoor dat hij problemen makkelijk kan analyseren en oplossen. Kwaliteit staat hierbij altijd op de voorgrond, ook wanneer het gaat om leiderschap. Waqaar levert een grote bijdrage aan de persoonlijke en professionele groei van groepen en een veilige sfeer. Dit zorgt ervoor dat hij met zijn teams continu kan verbeteren. Waqaar focust zich op beveiliging, anonimiteit en privacy. Hij is opzoek naar nieuwe uitdagingen en wil nog onbekende technieken zichzelf eigen maken. Op deze manier vind hij oplossingen voor een breed scala aan problemen." ;
+	rdfs_quotes:quotes "Ik heb gewerkt in veel verschillende gebieden van de IT, daarom durf ik te zeggen dat ik beschik over de vereisten die nodig zijn om complexe problemen op te lossen." ;
 	schema:name "Waqaar Beg" ;
 	schema:jobTitle "Security & Systems Engineer" ;
 	foaf:depiction <https://www.taxonic.com/cms/uploads/Naser-Ayat-Taxonic.jpg> ;
 	schema:url <https://www.taxonic.com/medewerker/waqaar-beg> ;
-	foaf:worksWith "ING" , "Swisslog" , "EDSN" , "Rijkswaterstaat" , "CGI, Logica CMG" , "European Patent Office" , "Rabobank International" , "UWV" ;
-	<http://purl.oclc.org/NET/UNIS/up#Ability> "Pen testing" , "Mobility / Bring Your Own Device" , "Splunk" , "Nexpose" , "IPv4, IPv6" , "Qualsys" , "Network (Cisco Firewall / VPN, Intrusion prevention and detection systems)" , "nmap" , "Vulnerably scans" , "Intrusion tooling" , "Lightweight directory protocol" , "Active Directory: Nessus, Apache/ Tomcat, Shell / SQL scripting, Linux /RedHat, WebSphere/ Java, Automated testing." , "Cryptography" , "SecureSphere" , "Microsoft, Oracle, UNIX, VMware" , "Outpost24" .
+	foaf:worksWith "Rijkswaterstaat" , "CGI, Logica CMG" , "EDSN" , "Swisslog" , "Rabobank International" , "UWV" , "European Patent Office" , "ING" ;
+	up:Ability "Vulnerably scans" , "Active Directory: Nessus, Apache/ Tomcat, Shell / SQL scripting, Linux /RedHat, WebSphere/ Java, Automated testing." , "SecureSphere" , "Pen testing" , "nmap" , "Outpost24" , "Cryptography" , "Splunk" , "Lightweight directory protocol" , "Microsoft, Oracle, UNIX, VMware" , "Network (Cisco Firewall / VPN, Intrusion prevention and detection systems)" , "Qualsys" , "Nexpose" , "Mobility / Bring Your Own Device" , "Intrusion tooling" , "IPv4, IPv6" .
 
-<http://example.com/person/Colin%20Meerveld> a schema:Person ;
+<http://example.taxonic.com/person/Colin%20Meerveld> a schema:Person ;
+	skos:prefLabel "Colin Meerveld" ;
+	rdfs:label "Colin Meerveld" ;
+	schema:description "Colin is een ervaren Solutions Architect met werkervaring in de Telecom en Internet industrie. Eén van zijn kwaliteiten is uitdagingen in een brede context zien en hier een concrete oplossing voor bieden; gedegen kennis en praktische ervaring helpen hem hierbij. In zijn werkervaring heeft hij Linked Data oplossingen toegepast. Hierbij gaat Colin het zelf  toepassen van tools en technieken zoals RDF en SPARQL niet uit de weg. Dit biedt hem juist de ervaring om draagvlak te creëren voor zijn oplossingen. Colin is sterk in zijn communicatie, open en duidelijk naar de stakeholders in zijn werkomgeving. Hij is altijd op de hoogte van de laatste technologie door het bezoeken van seminars, congressen en het bijhouden van vakliteratuur." ;
+	rdfs_quotes:quotes "Een nieuwe toepassing bedenken is eenvoudig. Ik zie de uitdaging in toepassingen bedenken op verouderde technologie door dingen in een ander perspectief te zetten." ;
 	schema:name "Colin Meerveld" ;
 	schema:jobTitle "Solution Architect" ;
 	foaf:depiction <https://www.taxonic.com/cms/uploads/Naser-Ayat-Taxonic.jpg> ;
 	schema:url <https://www.taxonic.com/medewerker/colin-meerveld> ;
-	foaf:worksWith "RTL Group" , "Deutsche Telekom" , "Arris International" , "Taxonic" , "Ziggo" , "J:COM" , "Liberty Global" , "Ericsson" , "SBS Broadcasting Group" , "Altice" , "Nederlandse Publieke Omroep" , "Virgin Media" , "KPN" , "ActiveVideo" , "Accessibility Foundation" , "Charter Communications" , "Time Warner Cable" , "Funai" ;
-	<http://purl.oclc.org/NET/UNIS/up#Ability> "Cloud Computing" , "SPARQL, Kubernetes, Git, Ansible" , "IT Architecture" , "Software Engineering" , "Java, Python, RDF, OWL" , "Linked Data" , "Data Modelling" , "Agile / Scrum" .
+	foaf:worksWith "Funai" , "Deutsche Telekom" , "Nederlandse Publieke Omroep" , "Ziggo" , "Taxonic" , "Accessibility Foundation" , "SBS Broadcasting Group" , "Charter Communications" , "J:COM" , "Ericsson" , "Altice" , "Time Warner Cable" , "KPN" , "Virgin Media" , "RTL Group" , "Arris International" , "ActiveVideo" , "Liberty Global" ;
+	up:Ability "Agile / Scrum" , "SPARQL, Kubernetes, Git, Ansible" , "Data Modelling" , "Cloud Computing" , "Linked Data" , "Java, Python, RDF, OWL" , "IT Architecture" , "Software Engineering" .
 
 <https://www.taxonic.com/cms/uploads/Jan-Voskuil-Taxonic.jpg> a foaf:Image .
 

@@ -1,0 +1,7 @@
+{
+  "@context": {
+	"rdfs_quotes": "http://rdfs.org/sioc/quotes#",
+	"ex": "http://www.example.taxonic.com#",
+	"up": "http://purl.oclc.org/NET/UNIS/up#"
+	}
+}
