@@ -16,7 +16,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 seed_page ='https://www.taxonic.com'
 crawl_limit = 200
 extract_limit = 20
-database = "medewerkers-quote.json"
+database = "medewerkers.json"
 id = 0
 
 #CONSTANTS
